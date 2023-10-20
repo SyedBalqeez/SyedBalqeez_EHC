@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> WEB DESIGNING</title>
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background-color: rgb(218, 194, 250);
+    background-image: url(https://img.freepik.com/premium-photo/teenage-girl-student-with-books-backpack-smiling-pointing-pink-ad-with-space_176841-27475.jpg?size=626&ext=jpg&ga=GA1.1.468474376.1694996135&semt=ais);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 180vh;
+}
+.navbar{
+    width: 1200px;
+    height: 60px;
+    margin:auto;
+}              
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+    color:rgb(112, 90, 173);
+    font-size:  xx-large;
+    font-family:cursive;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 60px;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    transition: 0.5s ease-in-out;
+    bottom: 10px;
+}
+
+ul li a:hover{
+    color: blueviolet;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 730px;
+}
+
+.srch{
+    font-family: Georgia;
+    width: 200px;
+    height:20px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 13px;
+    color: rgb(0, 0, 0);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(211, 92, 157);
+    border:2px solid rgb(0, 0, 0);
+    margin-top: 13px;
+    color: antiquewhite;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    float: right;
+    margin-right: 750px;
+    margin-left: 750px;
+    width: 510px;
+    margin-bottom: 100px;
+    position:relative;
+    margin-top: 50px;
+}
+.content h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(10, 10, 10);
+    padding-right: 40px;
+    font-size: Xx-large;
+}
+
+.content ol{
+    width: 300px;
+    height: 100px;
+}
+
+.content ol li{
+    padding-bottom: 10px;
+    padding-left: 50px;
+    color: rgb(96, 96, 102);
+    font-size: x-large;
+    padding-top: none;
+}
+
+.content h1{
+    width: 600px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    
+}
+
+.content p{
+    font-size: 20px;
+    padding-bottom:15px;
+    width: 750px;
+    font-family:monospace;
+    text-align: center;
+    color: black;
+}
+.content button{
+    margin-left: 70%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: rgb(104, 113, 230);
+    cursor: pointer;
+    font-size: medium;
+    text-transform: uppercase;
+    color: aliceblue;
+    border-radius: 3px;
+    transition: 3s;
+    margin-bottom: 20px;
+ }
+
+body{
+    overflow: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    
+    
+}
+
+.login h2 {
+    text-align: center;
+    font-size:40px;
+    height: 20%;
+    
+}
+
+#loginForm {
+    max-width: 300px;
+    background:transparent;
+    padding: 10px;
+    padding-left: 40%;
+   
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 105%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    color: red;
+    margin: 5px 0;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+               <div class="icon">
+                   <h2 class="logo">LEARNHUB</h2>
+               </div>
+               <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COUSES</a></li>
+                    <li><a href="#">WEBINARS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <div class="search">
+                    <input class="srch" name="" placeholder="FIND YOUR COURSE">
+                     <a href="#"><button class="btn">SEARCH</button></a>
+                </div>
+
+               </div>
+               <div class="content">
+                <h1>YOUR SUCCESS IS OUR GOAL </h1>
+                <P>Looking to add new skills?Is there a hobby you wanted to try?<br>Worry not LEARNHUB is here to help you achieve your dreams.<br>
+                        We have a free collection of courses to build your skills<br> With our experts.
+                </P>
+                <p>A Plat form for students to discuss topics,ask questions,<br>And share knowledge.</p>
+                <h3>Skills of your interest</h3>
+                <ol>
+                    <li>*Programming</li>
+                    <li>*Web Development</li>
+                    <li>*AI For Everyone</li>
+                    <li>*Data Sciences</li>
+                    <li>*Cloud computing </li>
+                    <button>try now</button>
+               </div>
+             
+        </div><div class="login">
+        <h2>LOGIN</h2>
+    </div>
+        <form id="loginForm">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <p id="emailError" style="color: red;"></p>
+            </div>
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <p id="usernameError" style="color: red;"></p>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <p id="passwordError" style="color: red;"></p>
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    
+        <script>
+            function validateLoginForm() {
+                document.getElementById("emailError").textContent = "";
+                document.getElementById("usernameError").textContent = "";
+                document.getElementById("passwordError").textContent = "";
+    
+                const email = document.getElementById("email").value;
+                const username = document.getElementById("username").value;
+                const password = document.getElementById("password").value;
+    
+                if (email === "") {
+                    document.getElementById("emailError").textContent = "Email is required.";
+                    return false;
+                }
+    
+                if (username === "") {
+                    document.getElementById("usernameError").textContent = "Username is required.";
+                    return false;
+                }
+                if (password === "" || password.length < 6) {
+                    document.getElementById("passwordError").textContent = "Password must be at least 6 characters.";
+                    return false;
+                }
+                return true;
+            }
+            document.getElementById("loginForm").addEventListener("submit", function (event) {
+                if (!validateLoginForm()) {
+                    event.preventDefault(); 
+                }
+            });
+        </script>
+    </body>
+</html>
